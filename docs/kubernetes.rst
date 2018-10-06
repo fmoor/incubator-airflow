@@ -1,7 +1,7 @@
 Kubernetes Executor
 ^^^^^^^^^^^^^^^^^^^
 
-The kubernetes executor is introduced in Apache Airflow 1.10.0. The Kubernetes executor will create a new pod for every task instance.
+The kubernetes executor was introduced in Apache Airflow 1.10.0. The Kubernetes executor creates a new pod for every task instance.
 
 Example helm charts are available at `scripts/ci/kubernetes/kube/{airflow,volumes,postgres}.yaml` in the source distribution. The volumes are optional and depend on your configuration. There are two volumes available:
 
